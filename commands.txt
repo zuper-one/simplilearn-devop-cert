@@ -1,0 +1,12 @@
+docker build -t zuperone/dockerwebapp .
+
+docker images
+
+docker run -p 49150:8080 zuperone/dockerwebapp .
+
+http://localhost:49160
+
+
+Issue: Cannot run program - ho hup
+
+  https://stackoverflow.com/questions/45140614/jenkins-pipeline-sh-fail-with-cannot-run-program-nohup-on-windows
